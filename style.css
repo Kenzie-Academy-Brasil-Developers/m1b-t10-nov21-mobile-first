@@ -1,6 +1,5 @@
 header {
   width: 100%;
-  height: 72px;
 
   background: #610a0b;
 }
@@ -8,6 +7,13 @@ header {
 .group-menu {
   display: flex;
   width: 90%;
+
+  margin: auto;
+  justify-content: space-between;
+}
+
+.group-menu img {
+  margin-top: 7px;
 }
 
 h1 {
@@ -25,9 +31,184 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
   height: 50vw;
   justify-content: center;
 }
-h2 {
+
+.secao-conteudo h2 {
+  font-family: Playfair Display;
+  font-style: normal;
+  /* font-weight: normal; */
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
   color: #ffffff;
+
+  margin-left: 102px;
+  padding-top: 20px;
+
+  max-width: 197px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #ffffff;
+
+  margin-top: 15px;
+
+  /* width: 200px; */
+}
+
+.secao-conteudo button {
+  /*estilo*/
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 0;
+  color: #ffffff;
+  background: #c23a25;
+
+  /*dimensão*/
+  width: 144px;
+  height: 24px;
+
+  /*posição*/
+  position: absolute;
+
+  left: 101px;
+  top: 190px;
+  text-align: center;
+}
+
+.grupo-artigos-cardapio {
+  width: 80%;
+  margin: auto;
+}
+
+article img,
+section img {
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #610a0b;
+
+  margin: 81px 0;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #751718;
+
+  margin-top: 15px;
+
+  width: 69px;
+  margin: 12px auto;
+}
+
+h4 {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #610a0b;
+  margin-top: 15px;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #751718;
+
+  margin-top: 15px;
+
+  width: 25px;
+  margin: 12px auto;
+}
+
+article p {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  /* or 225% */
+
+  text-align: center;
+
+  color: #8d3132;
+
+  max-width: 166px;
+  margin: 0 auto;
+}
+
+.secao-sobre-nos {
+  background-color: #f2e7ce;
+  padding-top: 34px;
+}
+
+.secao-sobre-nos p {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  color: #8d3132;
+
+  width: 80%;
+  margin: 0 auto;
+  max-width: 272px;
+}
+
+.secao-grupo-contatos {
+  font-family: Bitter;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #610a0b;
+
+  margin: 0 20px;
+}
+
+footer {
+  background: #610a0b;
+
+  color: #ffffff;
+  width: 100%;
+  height: 50.67px;
+  left: 0px;
+
+  line-height: 50px;
+  font-size: 12px;
+
+  text-align: center;
 }
