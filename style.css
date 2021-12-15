@@ -212,3 +212,49 @@ footer {
 
   text-align: center;
 }
+
+nav {
+  margin: auto 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav button {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 0;
+  color: #ffffff;
+  background: #c23a25;
+
+  /*dimensão*/
+
+  /*posição*/
+
+  margin-left: 15px;
+}
+
+@media (min-width: 610px) {
+  .group-menu img {
+    display: none;
+  }
+}
+
+@media (max-width: 610px) {
+  nav {
+    display: none;
+  }
+}
